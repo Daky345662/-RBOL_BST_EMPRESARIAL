@@ -1,4 +1,4 @@
-# 🌳 Árbol BST Empresarial en C++
+# Árbol BST Empresarial en C++
 
 > **Asignatura:** Estructura de Datos  
 > **Tema:** Árboles Binarios de Búsqueda en C++  
@@ -6,7 +6,7 @@
 
 ---
 
-## 📋 Descripción
+## Descripción
 
 Este proyecto implementa un **Árbol Binario de Búsqueda (BST)** en C++ para organizar empleados de una empresa de forma jerárquica, usando el código numérico de cada empleado como clave de ordenamiento.
 
@@ -14,7 +14,7 @@ La estructura del árbol refleja un organigrama empresarial donde es posible ins
 
 ---
 
-## 🎯 Objetivo
+## Objetivo
 
 Implementar en C++ un Árbol Binario de Búsqueda que permita:
 
@@ -25,7 +25,7 @@ Implementar en C++ un Árbol Binario de Búsqueda que permita:
 
 ---
 
-## ⚙️ Funcionalidades
+## Funcionalidades
 
 | # | Funcionalidad | Descripción |
 |---|---------------|-------------|
@@ -40,7 +40,7 @@ Implementar en C++ un Árbol Binario de Búsqueda que permita:
 
 ---
 
-## 🧠 Conceptos clave del árbol
+## Conceptos clave del árbol
 
 ### ¿Qué es un BST?
 Un **Árbol Binario de Búsqueda** es una estructura de datos jerárquica donde cada nodo tiene como máximo dos hijos. La regla fundamental es:
@@ -59,7 +59,7 @@ Un **Árbol Binario de Búsqueda** es una estructura de datos jerárquica donde 
 
 ---
 
-## 🗂️ Estructura del árbol con datos de prueba
+## Estructura del árbol con datos de prueba
 
 Insertando en el orden: `50 → 30 → 70 → 20 → 40 → 60 → 80`
 
@@ -83,7 +83,7 @@ Insertando en el orden: `50 → 30 → 70 → 20 → 40 → 60 → 80`
 
 ---
 
-## 📁 Estructura del repositorio
+## Estructura del repositorio
 
 ```
 arbol-bst-empresa-cpp/
@@ -103,7 +103,7 @@ arbol-bst-empresa-cpp/
 
 ---
 
-## 🚀 Compilación y ejecución
+## Compilación y ejecución
 
 ### Requisitos
 - Compilador `g++` instalado (viene con MinGW en Windows o gcc en Linux/Mac).
@@ -132,7 +132,7 @@ arbol.exe
 
 ---
 
-## 🧪 Datos de prueba
+## Datos de prueba
 
 Usa el menú opción `1` para insertar los siguientes empleados **en este orden exacto**:
 
@@ -146,11 +146,11 @@ Usa el menú opción `1` para insertar los siguientes empleados **en este orden 
 | 60 | Emp 3 | Hoja |
 | 80 | Emp 4 | Hoja |
 
-> ⚠️ **Importante:** El orden de inserción determina la forma del árbol. Insertando 50 primero, este será la raíz.
+> **Importante:** El orden de inserción determina la forma del árbol. Insertando 50 primero, este será la raíz.
 
 ---
 
-## 📸 Capturas de ejecución
+## Capturas de ejecución
 
 > Reemplaza las imágenes con tus propias capturas de pantalla al ejecutar el programa.
 
@@ -171,7 +171,7 @@ Usa el menú opción `1` para insertar los siguientes empleados **en este orden 
 
 ---
 
-## 🔍 Explicación del código
+## Explicación del código
 
 ### Struct `Empleado`
 Almacena los datos de cada persona: `codigo` (clave de búsqueda), `nombre` y `cargo`.
@@ -191,7 +191,7 @@ Si el árbol está vacío → crear nuevo nodo aquí
 
 ---
 
-## 📝 Conclusión
+## Conclusión
 
 El Árbol Binario de Búsqueda permite organizar información jerárquica de manera eficiente. En este proyecto se comprobó que:
 
@@ -202,7 +202,7 @@ El Árbol Binario de Búsqueda permite organizar información jerárquica de man
 
 ---
 
-## 🛠️ Tecnologías
+## Tecnologías
 
 ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat&logo=c%2B%2B&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)
